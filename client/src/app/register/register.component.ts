@@ -17,7 +17,7 @@ export class RegisterComponent {
 
   register() {
     console.log(this.model);
-    this.accountService.regiser(this.model).subscribe({
+    this.accountService.register(this.model).subscribe({
       next: () => {
         this.cancel();
       },
